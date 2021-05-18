@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="common/common.css">
+    <link rel="stylesheet" href="common/sports.css">
+    <link rel="stylesheet" href="common/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="common/common.js"></script>
+    <title>2020 Summer Olympics</title>
+</head>
+
+<body>
+    <div class="olp_wrap">
+
+        <!--  ※  중계 일정  ※  -->
+        <div class="bg_f5f5f5">
+            <div class="olp_vod">
+                <div class="tit-wrap">
+                    <h3 class="cont-tit">중계 일정</h3>
+                </div>
+                <div class="olp_scd">
+                    <!-- 공지 추가 -->
+                    <div class="layer-noti">
+                        <button type="button" class="noti"><img
+                                src="http://img.imbc.com/commons/2018/image/player/ico-noti.png" alt="공지"></button>
+                        <div class="noti-cont">
+                            <strong>알립니다</strong> MBC ONLY 채널 방송은 현장 중계 상황에 따라 갑자기 중단될 수 있습니다.<br>MBC SPORTS+ 채널에서는 저작권
+                            이슈로 도쿄올림픽 방송만 중계됩니다. <button type="button" class="btn-close">닫기</button>
+                        </div>
+                    </div>
+                    <script>
+                        $(document).ready(function () {
+                            $(".layer-noti .noti").click(function (e) {
+                                $(".noti-cont").toggle();
+                            });
+                            $(".btn-close").click(function () {
+                                $(".noti-cont").hide();
+                            })
+                        });
+
+                    </script>
+                    <div class="olsc_tab">
+                        <ul>
+                            <li class="c_0195d7">전체</li>
+                            <li>온라인 단독</li>
+                            <li>MBC</li>
+                            <li>MBC SPORTS+</li>
+                        </ul>
+                    </div>
+                    <button class="olsc_arrw olsc_prev">prev</button>
+                    <button class="olsc_arrw olsc_next">next</button>
+                    <div class="olsc_lst">
+                        <ul>
+                            <li>
+                                <div class="olsc_wrap">
+                                    <div class="olsc_bx">
+                                        <p class="os_ttl"><span class="c_fff100">온라인 단독</span> ON-AIR</p>
+                                        <strong class="os_date">7월 24일(토) 오전 10시</strong>
+                                        <span class="os_itr">
+                                            12:20 BMX 바이크 16강전<br>
+                                            12:20 싱크로나이즈드<br>
+                                            12:20 축구 조별예선 대한민국:뉴질랜드<br>
+                                            12:20 야구<br>
+                                            12:20 농구<br>
+                                            12:20 BMX 바이크 16강전<br>
+                                            12:20 싱크로나이즈드<br>
+                                            12:20 축구 조별예선 대한민국:뉴질랜드<br>
+                                            12:20 야구<br>
+                                            12:20 농구<br>
+                                        </span>
+                                        <a href="#" class="os_lk c_018ed3">생중계</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="olsc_wrap">
+                                    <div class="olsc_bx">
+                                        <p class="os_ttl">MBC ON-AIR</p>
+                                        <strong class="os_date">7월 25일(일) 오전 11시</strong>
+                                        <span class="os_itr">
+                                            12:20 BMX 바이크 16강전<br>
+                                            12:20 싱크로나이즈드<br>
+                                            12:20 축구 조별예선 대한민국:뉴질랜드<br>
+                                            12:20 야구<br>
+                                            12:20 농구<br>
+                                        </span>
+                                        <a href="#" class="os_lk c_7d7d7d">예정</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="olsc_wrap">
+                                    <div class="olsc_bx">
+                                        <p class="os_ttl"><span class="c_fff100">온라인 단독</span> ON-AIR</p>
+                                        <strong class="os_date">7월 26일(월) 오전 12시</strong>
+                                        <span class="os_itr">
+                                            12:20 BMX 바이크 16강전<br>
+                                            12:20 싱크로나이즈드<br>
+                                            12:20 축구 조별예선 대한민국:뉴질랜드<br>
+                                            12:20 야구<br>
+                                            12:20 농구<br>
+                                        </span>
+                                        <a href="#" class="os_lk c_018ed3">생중계</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="olsc_wrap">
+                                    <div class="olsc_bx">
+                                        <p class="os_ttl"><span class="c_fff100">온라인 단독</span> ON-AIR</p>
+                                        <strong class="os_date">7월 27일(화) 오전 01시</strong>
+                                        <span class="os_itr">
+                                            12:20 BMX 바이크 16강전<br>
+                                            12:20 싱크로나이즈드<br>
+                                            12:20 축구 조별예선 대한민국:뉴질랜드<br>
+                                            12:20 야구<br>
+                                            12:20 농구<br>
+                                        </span>
+                                        <a href="#" class="os_lk c_018ed3">생중계</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="olp_slk">
+                    <a href="http://schedule.imbc.com/" class="oslk" target="_blank">MBC 편성표</a>
+                    <a href="https://www.mbcplus.com/web/schedule/list.do#" class="oslk" target="_blank">MBC SPORTS+
+                        편성표</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
