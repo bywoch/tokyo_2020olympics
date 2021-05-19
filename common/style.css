@@ -52,3 +52,21 @@
 .mdsc_bx .md_rnk p {display: inline-block; float: left;}
 .mdsc_bx .md_rnk .mdrk_ko {font-size: 24px; font-family: 'notokr-bold';}
 .mdsc_bx .md_rnk .md_date {font-size: 14px; display: inline-block; padding-top: 8px; margin-left: 5px;}
+
+/*  -  경기 목록  -  */
+.olp_tab_bx {width: 1030px; position: relative; margin: 0 auto;}
+.olp_tab_bx .ot_arrw {display: inline-block; width: 10px; height: 20px; font-size: 1px; color: rgba(0, 0, 0, 0); position: absolute; top: 54px;}
+.olp_tab_bx .ot_prev {background: url("https://img.imbc.com/broad/tv/sports/images/olp_ot_arrw.png") 0 0 no-repeat; left: -30px;}
+.olp_tab_bx .ot_next {background: url("https://img.imbc.com/broad/tv/sports/images/olp_ot_arrw.png") -15px 0 no-repeat; right: -30px;}
+.olp_tab_bx .olp_tab {width: 100%; margin: 0 auto;}
+.olp_tab_bx .olp_tab ul {overflow: hidden;}
+.olp_tab_bx .olp_tab ul li {line-height: 80px; text-align: center; float: left; font-size: 20px; color: #000;}
+.olp_tab_bx .olp_tab ul li button {color: #000; vertical-align: middle; width: 100%; line-height: 82px;}
+.olp_tab_bx .olp_tab ul li:hover {border-bottom: 2px solid #0195d7;}
+.olp_tab_bx .olp_tab ul li:hover button {font-family: 'notokr-bold'; color: #0195d7;}
+.olp_tab_bx .olp_tab .slick-slide {margin: 0 10px;}
+.olp_tab_bx .olp_tab ul li.current1 {border-bottom: 2px solid #0195d7;}
+.olp_tab_bx .olp_tab ul li.current1 button {font-family: 'notokr-bold'; color: #0195d7;}
+.olp_hstg {width: 1218px; margin: 0 auto; border-top: 1px solid #eeeeee; text-align: center;}
+.olp_hstg a {font-size: 22px; color: #0196d8; margin-left: 40px; display: inline-block; padding-top: 20px; padding-bottom: 20px;}
+.olp_hstg a:first-child {margin-left: 0;}
