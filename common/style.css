@@ -38,3 +38,17 @@
 .olp_vod .olp_scd .olsc_lst ul li .olsc_bx .os_lk.c_7d7d7d {background: #FFF;}
 .olp_vod .olp_scd .olsc_lst ul li .olsc_bx .c_018ed3 {color: #018ed3; position: relative;}
 .olp_vod .olp_scd .olsc_lst ul li .olsc_bx .c_018ed3:after {content: ''; display: block; width: 6px; height: 6px; background: #ff0000; border-radius: 50%; background-size: 6px; position: absolute; top: 13px; right: 68px; animation: ani 1.1s ease infinite alternate;}
+
+/*  -  메달 스코어  -  */
+.mdsc_wrap {padding-top: 40px;}
+.mdsc_bx {background: #FFF url("https://img.imbc.com/broad/tv/sports/images/olp_mdsc_bx_bg_v2.jpg") no-repeat; background-size: cover; background-position: left; position: relative;}
+.mdsc_bx .md_lst {width: 375px; margin: 0 auto;}
+.mdsc_bx .md_lst ul {overflow: hidden;}
+.mdsc_bx .md_lst ul li {width: 125px; height: 60px; float: left; color: #FFF;}
+.mdsc_bx .md_lst ul li>span {display: inline-block; line-height: 60px; text-align: center;}
+.mdsc_bx .md_lst ul li .md_img {font-size: 13px; width: 35px; height: 50px; background: url("https://img.imbc.com/broad/tv/sports/images/olp_md_img.png") 0 -1px no-repeat;}
+.mdsc_bx .md_lst ul li .md_cnt {font-size: 36px; width: 65px; font-family: 'notokr-bold'; font-style: italic;}
+.mdsc_bx .md_rnk {position: absolute; top: 20px; right: 50px; color: #FFF; overflow: hidden;}
+.mdsc_bx .md_rnk p {display: inline-block; float: left;}
+.mdsc_bx .md_rnk .mdrk_ko {font-size: 24px; font-family: 'notokr-bold';}
+.mdsc_bx .md_rnk .md_date {font-size: 14px; display: inline-block; padding-top: 8px; margin-left: 5px;}
