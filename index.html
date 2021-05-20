@@ -16,8 +16,8 @@
 </head>
 
 <body>
+    <!-- ※ Olympic Area Start ※ -->
     <div class="olp_wrap">
-
         <!--  ※  중계 일정  ※  -->
         <div class="bg_f5f5f5">
             <div class="olp_vod">
@@ -27,19 +27,17 @@
                 <div class="olp_scd">
                     <!-- 공지 추가 -->
                     <div class="layer-noti">
-                        <button type="button" class="noti"><img
-                                src="http://img.imbc.com/commons/2018/image/player/ico-noti.png" alt="공지"></button>
+                        <button type="button" class="noti"><img src="http://img.imbc.com/commons/2018/image/player/ico-noti.png" alt="공지"></button>
                         <div class="noti-cont">
-                            <strong>알립니다</strong> MBC ONLY 채널 방송은 현장 중계 상황에 따라 갑자기 중단될 수 있습니다.<br>MBC SPORTS+ 채널에서는 저작권
-                            이슈로 도쿄올림픽 방송만 중계됩니다. <button type="button" class="btn-close">닫기</button>
+                            <strong>알립니다</strong> MBC ONLY 채널 방송은 현장 중계 상황에 따라 갑자기 중단될 수 있습니다.<br>MBC SPORTS+ 채널에서는 저작권 이슈로 도쿄올림픽 방송만 중계됩니다. <button type="button" class="btn-close">닫기</button>
                         </div>
                     </div>
                     <script>
-                        $(document).ready(function () {
-                            $(".layer-noti .noti").click(function (e) {
+                        $(document).ready(function() {
+                            $(".layer-noti .noti").click(function(e) {
                                 $(".noti-cont").toggle();
                             });
-                            $(".btn-close").click(function () {
+                            $(".btn-close").click(function() {
                                 $(".noti-cont").hide();
                             })
                         });
@@ -131,12 +129,10 @@
                 </div>
                 <div class="olp_slk">
                     <a href="http://schedule.imbc.com/" class="oslk" target="_blank">MBC 편성표</a>
-                    <a href="https://www.mbcplus.com/web/schedule/list.do#" class="oslk" target="_blank">MBC SPORTS+
-                        편성표</a>
+                    <a href="https://www.mbcplus.com/web/schedule/list.do#" class="oslk" target="_blank">MBC SPORTS+ 편성표</a>
                 </div>
             </div>
         </div>
-
         <!--  ※  메달 스코어  ※  -->
         <div class="mdsc_wrap bg_ffffff">
             <div class="mdsc_bx w_1218">
@@ -162,7 +158,6 @@
                 </div>
             </div>
         </div>
-
         <!--  ※  경기 목록  ※  -->
         <div class="olp_tab_wrap bg_ffffff">
             <div class="olp_tab_bx">
@@ -222,7 +217,6 @@
                 <a href="#">#&nbsp;<span class="hstg_txt">스페셜</span></a>
             </div>
         </div>
-
         <!--  ※  경기 영상  ※  -->
         <div class="olp_list_wrap">
             <div id="tab-1" class="olp_list current1">
@@ -1361,8 +1355,8 @@
                 <span>더보기</span>
             </button>
         </div>
-        
     </div>
+    <!-- ※ Olympic Area End ※ -->
 </body>
 
 </html>
