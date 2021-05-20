@@ -70,3 +70,40 @@
 .olp_hstg {width: 1218px; margin: 0 auto; border-top: 1px solid #eeeeee; text-align: center;}
 .olp_hstg a {font-size: 22px; color: #0196d8; margin-left: 40px; display: inline-block; padding-top: 20px; padding-bottom: 20px;}
 .olp_hstg a:first-child {margin-left: 0;}
+
+/*  -  경기 영상  -  */
+.olp_list_wrap {width: 100%; height: 630px; overflow: hidden; background: #0278af url("https://img.imbc.com/broad/tv/sports/images/olp_list_bg.jpg") no-repeat; background-size: 1920px; background-position: 50% 0px; padding-bottom: 30px;}
+.olp_list {width: 1218px; margin: 0 auto;}
+.olp_list ul {overflow: hidden;}
+.olp_list ul li {width: 280px; height: 290px; margin-left: 30px; margin-top: 30px; float: left; position: relative;}
+.olp_list ul li span {display: block; text-align: left;}
+.olp_list ul li .ol_img {width: 100%;}
+.olp_list ul li .ol_img img {width: 100%; display: block;}
+.olp_list ul li .ol_txt {color: #FFF; font-size: 20px;}
+.olp_list ul li .ol_txt .ol_ttl {font-family: 'notokr-bold'; margin-top: 18px;}
+.olp_list ul li .ol_txt .ol_idt {height: 56px; line-height: 28px; margin-top: 8px; text-overflow: ellipsis; overflow: hidden; display: -webkit-box !important; -webkit-line-clamp: 2; -webkit-box-orient: vertical; word-wrap: break-word;}
+.olp_list ul li .ol_txt .ol_date {font-size: 12px; margin-top: 15px;}
+.olp_list ul li:first-child {margin-left: 0;}
+.olp_list ul li.ol_01 {width: 584px; height: 610px;}
+.olp_list ul li.ol_01 .ol_ttl, .olp_list ul li.ol_01 .ol_idt {font-size: 24px;}
+.olp_list ul li.ol_01 .ol_ttl {margin-top: 25px;}
+.olp_list ul li.ol_01 .ol_idt {margin-top: 15px; line-height: 40px; height: 80px;}
+.olp_list ul li.ol_01 .ol_date {font-size: 16px; margin-top: 15px;}
+.olp_list ul li:after {content: ''; display: inline-block; width: 0; height: 0; border-right: 40px solid #0278af; border-top: 40px solid transparent; position: absolute; top: 120px; right: 0;}
+.olp_list ul li.ol_01:after {border-right: 65px solid #0278af; border-top: 65px solid transparent; top: 265px;}
+.olp_list {display: none;}
+.olp_list.current1 {display: block;}
+.olp_wrap .more_down {width: 213px; height: 52px; margin: 35px auto 0; background: url(https://img.imbc.com/commons/2018/image/sports/box-right.png) no-repeat right center;}
+.olp_wrap .more_down button {font-size: 14px; font-family: 'notokr-bold'; width: 193px; height: 100%; text-align: center; vertical-align: middle; background: url(https://img.imbc.com/commons/2018/image/sports/mix-box.jpg) no-repeat center left
+}
+.olp_wrap .more_down button span {background: url(https://img.imbc.com/commons/2018/image/sports/s-more-arr.png) no-repeat center right; padding-right: 26px; margin-left: 10px;}
+.olp_tky_non_ctt {width: 320px; margin: 140px auto 0;}
+.olp_tky_non_ctt img {display: block; width: 100%;}
+.olp_hstg a.current1 {font-family: 'notokr-bold';}
+.olp_hstg a.current1 {font-family: 'notokr-bold';}
+@keyframes ani {0% { opacity: 0 } 100% { opacity: 1 } }
+.layer-noti {position: absolute; top: 35px; right: -100px; z-index: 10;}
+.layer-noti .noti {margin-bottom: 7px; float: right;}
+.layer-noti .noti-cont {display: none; padding: 15px 20px; font-size: 12px; line-height: 22px; color: #707070; background: #fff; clear: both; position: relative;}
+.layer-noti .noti-cont strong {display: block; margin-bottom: 10px; font-size: 16px; font-family: 'notokr-bold';}
+.layer-noti .noti-cont .btn-close {width: 14px; height: 14px; position: absolute; top: 10px; right: 10px; background: url(https://img.imbc.com/commons/2018/image/player/keyinfo-close.png) no-repeat; text-indent: -9999px;}
