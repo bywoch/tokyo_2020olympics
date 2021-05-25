@@ -66,6 +66,7 @@ $(document).ready(function () {
         }
     });
 
+<<<<<<< HEAD
     $('.olp_tab ul li').click(function () {
         const tab_id1 = $(this).attr('data-tab');
         
@@ -83,4 +84,6 @@ $(document).ready(function () {
         $('.more_down').show();
     });
     
+=======
+>>>>>>> 98dab9a (update js file)
 });
