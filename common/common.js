@@ -35,4 +35,52 @@ $(document).ready(function () {
         }
     });
 
+    /*  ※  경기 목록  ※  */
+    $('.olp_tab ul').slick({
+        slidesToShow: 7,
+        slidesToScroll: 7,
+        arrows: true,
+        infinite: false,
+        draggable: true,
+        speed: 1000,
+        prevArrow: '.ot_prev',
+        nextArrow: '.ot_next',
+    });
+
+    //  * 경기 목록 좌우 클릭 이벤트 * 
+    const $otPrev = $('.olp_tab_bx .ot_prev');
+    const $otNext = $('.olp_tab_bx .ot_next');
+    const $olpTabSlides = $('.olp_tab .slick-slide');
+
+    $otPrev.hide();
+    $otNext.click(function () {
+        $otPrev.show();
+        if ($olpTabSlides.last().hasClass('slick-active')) {
+            $otNext.hide();
+        }
+    });
+    $otPrev.click(function () {
+        $otNext.show();
+        if ($olpTabSlides.filter('[data-slick-index="0"]').hasClass('slick-current')) {
+            $otPrev.hide();
+        }
+    });
+
+    $('.olp_tab ul li').click(function () {
+        const tab_id1 = $(this).attr('data-tab');
+        
+        $('.olp_list_wrap').css('height', '630px');
+        $('.more_down').show();
+        
+        $('.olp_tab ul li').removeClass('current1');
+        $('.olp_list').removeClass('current1');
+        $(this).addClass('current1');
+        $("#" + tab_id1).addClass('current1');
+    });
+    
+    $('.olp_tab_bx .ot_arrw').click(function () {
+        $('.olp_list_wrap').css('height', '630px');
+        $('.more_down').show();
+    });
+    
 });
