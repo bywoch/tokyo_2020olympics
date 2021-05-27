@@ -105,6 +105,10 @@ $(document).ready(function () {
     
     const olscLst = $('.olsc_lst .slick-slide').length;
     $('.olp_vod .olp_scd .olsc_next').toggle(olscLst > 3);
-
->>>>>>> 63982b0 (update js file 003)
+    
+    //중계 일정 탭 클릭 버튼 
+    $('.olsc_tab ul li').click(function () {
+        $(this).addClass('c_0195d7').siblings().removeClass('c_0195d7');
+    });
+    
 });
