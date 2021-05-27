@@ -84,6 +84,27 @@ $(document).ready(function () {
         $('.more_down').show();
     });
     
+<<<<<<< HEAD
 =======
 >>>>>>> 98dab9a (update js file)
+=======
+    /*  ※  경기 영상  ※  */
+    if ($(".olp_list li.ol_01").length > 0) {
+        $('.olp_list:first-child').addClass('ol_all')
+            .nextAll('.olp_list').removeClass('ol_all').addClass('ol_evt')
+            .find('ul li:nth-child(4n+6)').css('margin-left', '0');
+    }
+    
+    $('.more_down').click(function () {
+        const ollstOthgt = $('.olp_list ul li:nth-child(2)').outerHeight(true);
+        $('.olp_list_wrap').css('height', '+=' + ollstOthgt);
+        const olpInrHgt = $('.olp_list_wrap').innerHeight();
+        const crtlInrHgt = $('.olp_list.current1').innerHeight();
+        $('.more_down').toggle(olpInrHgt <= crtlInrHgt);
+    });
+    
+    const olscLst = $('.olsc_lst .slick-slide').length;
+    $('.olp_vod .olp_scd .olsc_next').toggle(olscLst > 3);
+
+>>>>>>> 63982b0 (update js file 003)
 });
