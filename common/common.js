@@ -65,8 +65,7 @@ $(document).ready(function () {
             $otPrev.hide();
         }
     });
-
-<<<<<<< HEAD
+    
     $('.olp_tab ul li').click(function () {
         const tab_id1 = $(this).attr('data-tab');
         
@@ -84,10 +83,6 @@ $(document).ready(function () {
         $('.more_down').show();
     });
     
-<<<<<<< HEAD
-=======
->>>>>>> 98dab9a (update js file)
-=======
     /*  ※  경기 영상  ※  */
     if ($(".olp_list li.ol_01").length > 0) {
         $('.olp_list:first-child').addClass('ol_all')
@@ -105,7 +100,7 @@ $(document).ready(function () {
     
     const olscLst = $('.olsc_lst .slick-slide').length;
     $('.olp_vod .olp_scd .olsc_next').toggle(olscLst > 3);
-    
+
     //중계 일정 탭 클릭 버튼 
     $('.olsc_tab ul li').click(function () {
         $(this).addClass('c_0195d7').siblings().removeClass('c_0195d7');
